@@ -1,0 +1,392 @@
+*
+  {
+      margin: 0;
+      padding: 0;
+      box-sizing: initial;
+      
+  }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+.top-bar ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+#top-header-menu li {
+    display: inline;
+    padding: 5px;
+    padding-left: 20px;
+    
+
+}
+
+#top-header-menu span{
+    color: white;
+    padding-left: 160px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+#top-header-menu li:hover{
+    background-color: #81a0fa;
+}
+
+.top-bar {
+    background:#3a58b1;
+    line-height: 50px;
+    height: 50px;
+    font-size: 14px;
+}
+.top-bar a {
+  color: #fff;
+}
+
+.top-bar #social {
+	text-align: right;
+}
+
+#top-header-menu button {
+	display:inline-block;
+	cursor:pointer;
+    padding:5px 5px;
+}
+
+#marka{
+    color: rgb(82, 255, 82);
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: whitesmoke;
+    overflow: hidden;
+    padding: 4px 16px;
+    padding-right: 95px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #1b1b1b;
+    text-align: center;
+    padding: 7px 17px;
+    text-decoration: none;
+    font-size: 14.5px;
+    border-radius: 20px;
+    margin: auto; margin-top: 1em; 
+   
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #3a58b1;
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #3a58b1;
+    color: white;
+  }
+
+.logo{
+    padding-left: 45px;
+    width: 230px;
+}
+img {
+    text-align: center;
+    width: 100%;
+    background-size: 100,100% ;
+    background-repeat: no-repeat;
+}
+#feature {
+    background-color: #3a58b1;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 1em;
+}
+
+.text-center{
+    text-align: center;
+}
+.logo-line
+{
+
+    width:40px;
+    height:2px;
+    background-color: green;
+    margin-left: 600px;
+    margin-top: 10px;
+    
+    
+   
+
+}
+                     
+.logo-line2
+{
+    width:40px;
+    height:2px;
+    background-color: green;
+     margin-top: 28px; 
+    position: 0;
+    
+    
+    
+    
+}
+.img-intro
+{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+     
+
+    
+} 
+ .introSection div
+{
+    display: inline-block;
+} 
+.introSection p
+{
+    line-height: 1.5rem;
+}
+.introSection h1
+{
+    color: #316DC3;
+}
+.introSection span
+{
+    color: green;
+}
+.text-muted{
+    background-color:whitesmoke;
+    color: rgb(107, 104, 104);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.6;
+    padding-bottom: 100px;
+
+}
+
+.countersection img
+{
+    width:50px;
+    height:50px;
+}
+
+.countersection h4
+{
+    font-size: 3rem;
+}
+.countersection h5
+{
+    font-size: 1rem;
+}
+.countersection
+{
+    
+    color: #fff;
+    
+    background-color:#2855E8 !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}  
+.column {
+    
+    float: left;
+    width: 19%;
+    margin-left: 70px;
+ 
+  }
+
+  .green{
+      color: #00FF00;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+  .serviceSection  .service-div
+  {
+      
+      width: 350px;
+      height: 200px;
+      background-color: white;
+  }
+    .serviceSection2
+    {
+        padding-left: 7rem;
+        background-color: #F7F8FA;
+    }
+    .serviceSection2 .service-div
+    {
+        float: left;
+        background-color: white;
+        box-shadow: 10px 10px; 
+        box-shadow:  0px 10px 20px 0px #DCDCDE;
+        
+
+    }
+    .my-4{
+        width: 20%;
+        margin-top: 3rem;
+        
+    }
+    .mt-3{
+        margin-top: 2em;
+    }
+    .mr-4{
+        margin-right: 2em;
+    }
+    .service-div{
+        margin-bottom: 2em;
+    }
+    
+    
+    /*--------------activityandImageSection-----------*/
+   section{
+       margin-top: 2rem;
+   }
+    .myf{
+       margin-left: 3rem;
+       display: inline-block;
+   }
+   .my5{
+    margin-left: 30rem;
+   }
+
+   .column1, .column2, .column3 {
+    
+    
+    width: 420px;
+    float: left;
+    margin: 14px;}
+
+    .my-10{
+        margin-left: 0rem;
+    }
+    .imagesection{
+        width: 20%;
+    }
+    #customers { 
+        margin-top: 0.5rem;
+        margin-left: 2rem;
+        font-family:  sans-serif;
+        width: 100%;
+      }
+      #customers tr{
+        border:2px solid white;
+      }
+      
+      #customers th {
+          
+        width: 50%;
+        border: 5px ;
+        padding: 15px;
+        background-color: rgb(230, 230, 230);
+        color: #3655b3;
+      }
+      #imagesel{
+          width: 10%;
+      }
+     
+    /*-------x-------activityandImageSection-------x----*/
+    
+      
+    .acolumn {
+        margin-top: 2rem;
+        float: left;
+        width: 17%;
+        padding: 5px;
+        margin-left: 5rem;
+      }
+      
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+/*--------------footerSection-----------*/
+     
+       .background
+       {
+           
+           background-color: black;
+        }
+       .white{
+        color: grey;
+       }
+       .list-inline{
+           display: inline;
+           font-size: medium;
+           font-family: 'Segoe UI';
+       }
+       .mr-5{
+           font-size: medium;
+           font-family: 'Segoe UI';
+           margin-left: 4rem;
+       }
+       .colu{
+           display: inline;
+           margin-left:70rem;
+           
+       }
+       #social{
+           width: 15%;
+           font-size: 20px;
+           color:#1e49cc;
+       }
+       #boxes{
+           margin-top: 5rem
+       }
+       #leftbox { 
+        float:left;  
+        background: rgb(19, 19, 19); 
+        width:40%; 
+        height:380px; 
+    } 
+    #middlebox{ 
+        float:left;  text-align: left;
+        background: rgb(19, 19, 19); 
+        width:35%; 
+        height:380px; 
+    } 
+    hr{
+        border-top: 1px solid grey;
+    }
+    #rightbox{ 
+        text-align: center;
+        float:right; 
+        background: rgb(19, 19, 19); 
+        width:25%; 
+        height:380px; 
+    } 
+/*------x--------footerSection-----x------*/
+    .copyrightDiv{
+        text-align: center;
+        font-family: 'Segoe UI';
+        color: whitesmoke;
+        padding: 10px;
+        background-color: #1e49cc;
+    }
+    
+    
